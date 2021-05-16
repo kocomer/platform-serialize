@@ -27,7 +27,6 @@ public class SerializeUtils {
 
             helper.clazz = field.getType();
             list.add(helper);
-            System.out.println(String.valueOf(helper));
         }
         //根据名称排序
         Collections.sort(list, new Comparator<Helper>() {
